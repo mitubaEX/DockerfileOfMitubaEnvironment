@@ -1,0 +1,2 @@
+# DockerfileOfMitubaEnvironment
+java環境をDockerを用いて構築する
