@@ -51,6 +51,9 @@ RUN cd ~/AizuOnlineJudgeMituba
 RUN git config --global user.email "g1344955@cse.kyoto-su.ac.jp"
 RUN git config --global user.name "mitubaEX"
 
+# gradle
+RUN apt-get install -y gradle
+
 
 RUN echo "cd ~/.vim/bundle/vimproc" > ~/make.sh
 RUN echo "make -f make_unix.mak" >> ~/make.sh
